@@ -1,0 +1,140 @@
+body{
+
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+
+}
+
+
+@font-face {
+    font-family: font1;
+    src: url(font1.woff);
+  }
+
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+
+ 
+::-webkit-scrollbar-thumb {
+    background: #dadce0;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+    box-shadow: none;	
+}
+
+
+#ks{
+
+   font-family: Arial, Helvetica, sans-serif;	
+ 
+}
+
+
+#hhh{
+
+   font-family: Arial, Helvetica, sans-serif;		
+
+}
+
+
+#word11{
+
+    height: 36px;
+    color: #293a4a;
+    border-radius: 4px 4px 0px 0px;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: right;
+    font-family: 'font1';
+    font-size: 20px;
+
+}
+
+
+#lp{
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 355px;
+    width: 610px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);	
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+
+}
+
+
+.lll {
+
+    outline: none;
+    border-radius:4px;
+    font-family: 'font1';
+    width: 590px;
+    height: 272px;
+    border: none;
+    resize: none;
+    color: #293a4a;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+
+#btn1 {
+
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #293a4a;
+    color: white;
+    width: 70px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    outline: none;
+
+}
+
+
+#btn2 {
+
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: #293a4a;
+    color: white;
+    width: 70px;
+    height: 36px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    outline: none;
+
+}
+
+
+
+::placeholder { 
+    color: #293a4a;
+    opacity: 1; 
+  }
+
+  :-ms-input-placeholder { 
+    color: #293a4a;
+  }
+  
+  ::-ms-input-placeholder { 
+    color: #293a4a;
+  }
